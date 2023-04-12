@@ -1,0 +1,10 @@
+// Function: Background Image
+ @mixin set-backgrond-image($image){
+        width: 100%;
+        height: 100%; 
+        background-image: linear-gradient(rgba(57, 56, 56, 0.894), rgba(132, 133, 130, 0.524)),
+        url($image);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+ }
