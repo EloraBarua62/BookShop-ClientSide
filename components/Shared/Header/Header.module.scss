@@ -1,8 +1,13 @@
+// Import SCSS files
+@import '../../../styles/config';
+
 
 // Header
 .header_section{
     width: 100%;
-    height: 100%;
     display: flex;
     flex-direction: row;
+    z-index: 1000;
+    position: fixed;
+    background-color: $secondary-color
 }
